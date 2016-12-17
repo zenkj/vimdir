@@ -10,9 +10,6 @@
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
 	url = https://github.com/jlanzarotta/bufexplorer
-[submodule "bundle/vimorganizer"]
-	path = bundle/vimorganizer
-	url = https://github.com/hsitz/VimOrganizer
 [submodule "bundle/vim-orgmode"]
 	path = bundle/vim-orgmode
 	url = https://github.com/jceb/vim-orgmode

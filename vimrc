@@ -20,7 +20,6 @@ nnoremap ; o<esc>
 nnoremap gs :grep -rn <cword> *<return>
 nnoremap gu :GundoToggle<cr>
 nnoremap gn :NERDTreeToggle<cr>
-<<<<<<< HEAD
 nnoremap gq :q!<cr>
 nnoremap gy :Goyo<cr>
 nnoremap gz ZZ
@@ -34,3 +33,4 @@ execute pathogen#infect()
 filetype plugin indent on
 
 "set scrolloff=999
+"

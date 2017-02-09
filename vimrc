@@ -3,23 +3,22 @@
 syntax on
 
 nnoremap <tab> <c-w><c-w>
-nnoremap f <c-f>
-nnoremap d <c-b>
 set ic
 set ts=4
 set sw=4
 set expandtab
 set nu
 set ruler
-set foldmethod=indent
+"set foldmethod=indent
 set autoindent
 set smartindent
-set foldlevel=4
+"set foldlevel=4
 colorscheme darkblue
 nnoremap ; o<esc>
 nnoremap gs :grep -rn <cword> *<return>
 nnoremap gu :GundoToggle<cr>
 nnoremap gn :NERDTreeToggle<cr>
+nnoremap gy :Goyo<cr>
 
 nnoremap <c-h> <c-w><
 nnoremap <c-l> <c-w>>

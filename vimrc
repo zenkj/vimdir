@@ -11,15 +11,16 @@ set sw=4
 set expandtab
 set nu
 set ruler
-set foldmethod=indent
+"set foldmethod=indent
 set autoindent
 set smartindent
-set foldlevel=4
+"set foldlevel=4
 colorscheme darkblue
 nnoremap ; o<esc>
 nnoremap gs :grep -rn <cword> *<return>
 nnoremap gu :GundoToggle<cr>
 nnoremap gn :NERDTreeToggle<cr>
+<<<<<<< HEAD
 nnoremap gq :q!<cr>
 nnoremap gy :Goyo<cr>
 nnoremap gz ZZ

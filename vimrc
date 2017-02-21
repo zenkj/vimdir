@@ -3,6 +3,10 @@
 syntax on
 
 nnoremap <tab> <c-w><c-w>
+nnoremap <c-h> <c-w><
+nnoremap <c-j> <c-w>+
+nnoremap <c-k> <c-w>-
+nnoremap <c-l> <c-w>>
 "nnoremap f <c-f>
 "nnoremap d <c-b>
 set ic
@@ -16,6 +20,7 @@ set autoindent
 set smartindent
 "set foldlevel=4
 colorscheme darkblue
+
 nnoremap ; o<esc>
 nnoremap gs :grep -rn <cword> *<return>
 nnoremap gu :GundoToggle<cr>

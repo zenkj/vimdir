@@ -16,3 +16,6 @@
 [submodule "bundle/goyo.vim"]
 	path = bundle/goyo.vim
 	url = https://github.com/junegunn/goyo.vim
+[submodule "bundle/drawit.vim"]
+	path = bundle/drawit.vim
+	url = https://github.com/vim-scripts/DrawIt

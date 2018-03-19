@@ -7,8 +7,9 @@ nnoremap <c-h> <c-w><
 nnoremap <c-j> <c-w>+
 nnoremap <c-k> <c-w>-
 nnoremap <c-l> <c-w>>
-"nnoremap f <c-f>
-"nnoremap d <c-b>
+nnoremap f <c-f>
+nnoremap d <c-b>
+set pastetoggle=<F3>
 set ic
 set ts=4
 set sw=4
@@ -28,11 +29,14 @@ nnoremap gn :NERDTreeToggle<cr>
 nnoremap gq :q!<cr>
 nnoremap gy :Goyo<cr>
 nnoremap gz ZZ
+nnoremap gd :DrawIt<cr>
 
 nnoremap <c-h> <c-w><
 nnoremap <c-l> <c-w>>
 nnoremap <c-j> <c-w>+
 nnoremap <c-k> <c-w>-
+
+set foldmethod=indent
 
 execute pathogen#infect()
 filetype plugin indent on

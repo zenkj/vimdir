@@ -20,7 +20,7 @@ set ruler
 set autoindent
 set smartindent
 "set foldlevel=4
-colorscheme darkblue
+colorscheme elflord
 
 nnoremap ; o<esc>
 nnoremap gs :grep -rn <cword> *<return>

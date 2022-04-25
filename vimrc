@@ -60,4 +60,4 @@ source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
 
 "解决consle提示信息输出乱码
-language messages zh_CN.utf-8
+"language messages zh_CN.utf-8
